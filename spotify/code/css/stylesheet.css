@@ -4,3 +4,50 @@ Text: 1A1A1A
 Green: #00B172
 White: #FFF
 */
+/*cambiar el en lidtado de mi barra de nav*/
+header{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-bottom:10px;
+}
+
+header li{
+list-style:none ;
+	display:inline;	
+}
+
+.logo_img{
+	width:15%;
+	height:15%;
+}
+.titulo1{
+	color:green;
+}
+.seccion1{
+
+}
+.seccion2{
+	text-align:center;
+	display:flex;
+	flex-direction:row;
+}
+.seccion3{
+	background-color:green;
+
+}
+.imagen_fondo{
+	width: 25%;
+	height: 25%;
+}
+.img_telefono{
+	width:30%;
+	height:30%;
+}
+.iconos{
+	width:10%;
+	height:10%;
+}
+.titulo8{
+	text-align:center;
+}
