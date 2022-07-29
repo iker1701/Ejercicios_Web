@@ -5,16 +5,26 @@ Green: #00B172
 White: #FFF
 */
 /*cambiar el en lidtado de mi barra de nav*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap');
+*{
+	font-family:'Montserrat', sans-serif;
+	font-weight: 300;
+
+}
 header{
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
 	margin-bottom:10px;
+	margin-top:10px;
+	margin-left:10px;
 }
 
 header li{
-list-style:none ;
+	list-style:none ;
 	display:inline;	
+	margin-left:10px;
+	margin-right:20px;
 }
 
 .logo_img{
@@ -25,16 +35,32 @@ list-style:none ;
 	color:green;
 }
 .seccion1{
+	background-image:url('../img/landing.jpeg');
+	color:whitesmoke;
+	height:700px;
+	background-size: cover;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+}
 
+.seccion1 h1{
+	font-size:50px;
+	font-weight:700;
+}
+.seccion1 p{
+	font-size:30px;
+	font-weight:300;
 }
 .seccion2{
-	text-align:center;
 	display:flex;
-	flex-direction:row;
-}
-.seccion3{
-	background-color:green;
-
+	flex-direction: row;
+	justify-content: center;
+	height:350px;
+	align-items: center;
+	align-content:space-between;
 }
 .imagen_fondo{
 	width: 25%;
@@ -43,11 +69,43 @@ list-style:none ;
 .img_telefono{
 	width:30%;
 	height:30%;
+	display: flex;
+
 }
 .iconos{
-	width:10%;
-	height:10%;
+	width:20%;
+	height:20%;
 }
 .titulo8{
 	text-align:center;
+	font-weight:700;
+	font-size:40px;
 }
+
+.seccion2 div{
+	display: flex;
+	flex-direction: column;
+	justify-content:center;
+	align-items: center;
+	}
+.titulo1{
+	color: rgb(39,177,110);
+	font-weight:500;
+}
+.parrafo1{
+	font-weight: 500;
+	color:gray;
+}
+.seccion3{
+	background: rgb(39,177,110);
+	color: white;
+}
+/*
+
+
+.primera_seccion{
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;	
+}
+}*/
